@@ -15,7 +15,7 @@ app = Flask(__name__)
 # Ensure ChromaDB directory exists
 os.makedirs(CHROMA_DB_DIR, exist_ok=True)
 
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "*"}}) 
 
 @app.route("/chat", methods=["POST"])
 @app.route("/chat/history", methods=["GET"])
