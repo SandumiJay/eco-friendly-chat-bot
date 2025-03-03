@@ -1,0 +1,8 @@
+flask
+langchain
+chromadb
+sentence-transformers
+transformers
+langchain_community
+huggingface-hub==0.17.1
+llama-cpp-python==0.1.85

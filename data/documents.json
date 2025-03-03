@@ -1,13 +1,322 @@
 [
     {
-      "title": "Recycled Cotton T-Shirts",
-      "description": "Eco-friendly T-shirts made from 100% recycled cotton.",
-      "tags": ["sustainable", "recycled", "fashion"]
+      "id": "001",
+      "name": "Eco-Friendly Bamboo Toothbrush",
+      "description": "A sustainable and biodegradable toothbrush made from natural bamboo and soft bristles.",
+      "price": 7.99,
+      "currency": "USD",
+      "shipping_cost": 2.99,
+      "shipping_method": "Standard Shipping",
+      "availability": "In Stock",
+      "category": "Personal Care",
+      "tags": ["eco-friendly", "sustainable", "bamboo", "toothbrush", "biodegradable"],
+      "certifications": [
+        "FSC Certified",
+        "Vegan"
+      ]
     },
     {
-      "title": "Bamboo Toothbrush",
-      "description": "A biodegradable bamboo toothbrush that reduces plastic waste.",
-      "tags": ["biodegradable", "zero-waste", "personal care"]
+      "id": "002",
+      "name": "Reusable Stainless Steel Water Bottle",
+      "description": "A durable, eco-friendly water bottle made from 100% stainless steel, keeping your drinks cold or hot for hours.",
+      "price": 19.99,
+      "currency": "USD",
+      "shipping_cost": 4.99,
+      "shipping_method": "Standard Shipping",
+      "availability": "In Stock",
+      "category": "Home & Kitchen",
+      "tags": ["eco-friendly", "stainless steel", "reusable", "water bottle"],
+      "certifications": [
+        "BPA-Free",
+        "Food Grade Stainless Steel"
+      ]
+    },
+    {
+      "id": "003",
+      "name": "Biodegradable Phone Case",
+      "description": "An eco-friendly phone case made from plant-based materials, providing excellent protection while being biodegradable.",
+      "price": 15.99,
+      "currency": "USD",
+      "shipping_cost": 3.99,
+      "shipping_method": "Standard Shipping",
+      "availability": "In Stock",
+      "category": "Electronics",
+      "tags": ["eco-friendly", "biodegradable", "phone case", "plant-based"],
+      "certifications": [
+        "RoHS Compliant",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "004",
+      "name": "Recycled Paper Notebooks",
+      "description": "A set of notebooks made from 100% recycled paper, perfect for eco-conscious writing and note-taking.",
+      "price": 8.99,
+      "currency": "USD",
+      "shipping_cost": 1.99,
+      "shipping_method": "Standard Shipping",
+      "availability": "In Stock",
+      "category": "Office Supplies",
+      "tags": ["eco-friendly", "recycled paper", "notebooks"],
+      "certifications": [
+        "FSC Certified",
+        "100% Recycled Paper"
+      ]
+    },
+    {
+      "id": "005",
+      "name": "Organic Cotton Tote Bag",
+      "description": "A durable, eco-friendly tote bag made from organic cotton, perfect for shopping or carrying your essentials.",
+      "price": 12.99,
+      "currency": "USD",
+      "shipping_cost": 3.49,
+      "shipping_method": "Standard Shipping",
+      "availability": "In Stock",
+      "category": "Fashion",
+      "tags": ["eco-friendly", "organic cotton", "tote bag", "sustainable"],
+      "certifications": [
+        "Global Organic Textile Standard (GOTS)",
+        "Fair Trade"
+      ]
+    },
+    {
+      "id": "006",
+      "name": "Solar-Powered Charger",
+      "description": "A portable solar-powered charger for your devices, designed to reduce energy consumption and promote sustainability.",
+      "price": 24.99,
+      "currency": "USD",
+      "shipping_cost": 5.99,
+      "shipping_method": "Standard Shipping",
+      "availability": "In Stock",
+      "category": "Electronics",
+      "tags": ["solar power", "eco-friendly", "charger", "portable"],
+      "certifications": [
+        "CE Certified",
+        "RoHS Compliant"
+      ]
+    },
+    {
+      "id": "007",
+      "name": "Compostable Trash Bags",
+      "description": "Trash bags made from compostable materials, perfect for reducing plastic waste and supporting a greener planet.",
+      "price": 9.99,
+      "currency": "USD",
+      "shipping_cost": 4.49,
+      "shipping_method": "Standard Shipping",
+      "availability": "In Stock",
+      "category": "Home & Kitchen",
+      "tags": ["compostable", "eco-friendly", "trash bags", "sustainable"],
+      "certifications": [
+        "Compostable Certification",
+        "BPI Certified"
+      ]
+    },
+    {
+      "id": "008",
+      "name": "Eco-Friendly Wooden Sunglasses",
+      "description": "Stylish and sustainable sunglasses made from wood, providing UV protection while reducing plastic waste.",
+      "price": 39.99,
+      "currency": "USD",
+      "shipping_cost": 6.99,
+      "shipping_method": "Standard Shipping",
+      "availability": "In Stock",
+      "category": "Fashion",
+      "tags": ["eco-friendly", "wooden", "sunglasses", "sustainable"],
+      "certifications": [
+        "FSC Certified",
+        "UV Protection"
+      ]
+    },
+    {
+      "id": "009",
+      "name": "Reusable Beeswax Wraps",
+      "description": "A set of beeswax wraps, an eco-friendly alternative to plastic wrap for food storage, made from organic cotton and beeswax.",
+      "price": 12.49,
+      "currency": "USD",
+      "shipping_cost": 3.49,
+      "shipping_method": "Standard Shipping",
+      "availability": "In Stock",
+      "category": "Home & Kitchen",
+      "tags": ["eco-friendly", "beeswax", "wraps", "sustainable"],
+      "certifications": [
+        "Organic Cotton",
+        "GOTS Certified"
+      ]
+    },
+    {
+      "id": "010",
+      "name": "Eco-Friendly Yoga Mat",
+      "description": "A high-quality, non-toxic yoga mat made from natural rubber, providing a firm grip for your practice.",
+      "price": 29.99,
+      "currency": "USD",
+      "shipping_cost": 7.99,
+      "shipping_method": "Standard Shipping",
+      "availability": "In Stock",
+      "category": "Sports & Outdoors",
+      "tags": ["eco-friendly", "yoga mat", "natural rubber", "non-toxic"],
+      "certifications": [
+        "OEKO-TEX Certified",
+        "Natural Rubber"
+      ]
+    },
+    {
+      "id": "011",
+      "name": "Eco-Friendly Cleaning Cloths",
+      "description": "A set of reusable cleaning cloths made from organic cotton, designed for eco-friendly and effective cleaning.",
+      "price": 6.99,
+      "currency": "USD",
+      "shipping_cost": 2.99,
+      "shipping_method": "Standard Shipping",
+      "availability": "In Stock",
+      "category": "Home & Kitchen",
+      "tags": ["eco-friendly", "organic cotton", "cleaning cloths", "sustainable"],
+      "certifications": [
+        "GOTS Certified",
+        "Fair Trade"
+      ]
+    },
+    {
+      "id": "012",
+      "name": "Bamboo Charcoal Air Purifier",
+      "description": "A natural air purifier made from bamboo charcoal to help absorb odors and toxins in your home or office.",
+      "price": 18.99,
+      "currency": "USD",
+      "shipping_cost": 3.99,
+      "shipping_method": "Standard Shipping",
+      "availability": "In Stock",
+      "category": "Home & Kitchen",
+      "tags": ["bamboo charcoal", "air purifier", "eco-friendly"],
+      "certifications": [
+        "BPA-Free",
+        "Natural Materials"
+      ]
+    },
+    {
+      "id": "013",
+      "name": "Eco-Friendly Laundry Detergent Pods",
+      "description": "Concentrated laundry detergent pods made from plant-based ingredients, gentle on your clothes and the environment.",
+      "price": 14.99,
+      "currency": "USD",
+      "shipping_cost": 4.49,
+      "shipping_method": "Standard Shipping",
+      "availability": "In Stock",
+      "category": "Household",
+      "tags": ["eco-friendly", "plant-based", "laundry pods", "biodegradable"],
+      "certifications": [
+        "Cruelty-Free",
+        "Vegan"
+      ]
+    },
+    {
+      "id": "014",
+      "name": "Natural Coconut Fiber Scrub Brush",
+      "description": "A biodegradable scrub brush made from coconut fibers, ideal for cleaning dishes and surfaces without harming the planet.",
+      "price": 7.49,
+      "currency": "USD",
+      "shipping_cost": 2.49,
+      "shipping_method": "Standard Shipping",
+      "availability": "In Stock",
+      "category": "Home & Kitchen",
+      "tags": ["coconut fiber", "scrub brush", "eco-friendly", "biodegradable"],
+      "certifications": [
+        "BPA-Free",
+        "Compostable"
+      ]
+    },
+    {
+      "id": "015",
+      "name": "Organic Cotton Bedding Set",
+      "description": "A soft, breathable bedding set made from 100% organic cotton, perfect for a comfortable and sustainable sleep.",
+      "price": 59.99,
+      "currency": "USD",
+      "shipping_cost": 8.99,
+      "shipping_method": "Standard Shipping",
+      "availability": "In Stock",
+      "category": "Home & Kitchen",
+      "tags": ["organic cotton", "bedding set", "eco-friendly"],
+      "certifications": [
+        "GOTS Certified",
+        "OEKO-TEX Certified"
+      ]
+    },
+    {
+      "id": "016",
+      "name": "Zero-Waste Shampoo Bar",
+      "description": "A solid shampoo bar made from natural ingredients, providing an eco-friendly alternative to plastic bottles.",
+      "price": 10.49,
+      "currency": "USD",
+      "shipping_cost": 2.99,
+      "shipping_method": "Standard Shipping",
+      "availability": "In Stock",
+      "category": "Personal Care",
+      "tags": ["zero-waste", "shampoo bar", "eco-friendly", "plastic-free"],
+      "certifications": [
+        "Vegan",
+        "Cruelty-Free"
+      ]
+    },
+    {
+      "id": "017",
+      "name": "Plant-Based Compostable Plates",
+      "description": "Compostable plates made from plant-based materials, perfect for parties or picnics without creating plastic waste.",
+      "price": 12.99,
+      "currency": "USD",
+      "shipping_cost": 3.49,
+      "shipping_method": "Standard Shipping",
+      "availability": "In Stock",
+      "category": "Home & Kitchen",
+      "tags": ["compostable", "eco-friendly", "plates", "sustainable"],
+      "certifications": [
+        "BPI Certified",
+        "Compostable"
+      ]
+    },
+    {
+      "id": "018",
+      "name": "Natural Soy Wax Candles",
+      "description": "Hand-poured candles made from natural soy wax, providing a cleaner burn and a calming fragrance.",
+      "price": 18.99,
+      "currency": "USD",
+      "shipping_cost": 4.99,
+      "shipping_method": "Standard Shipping",
+      "availability": "In Stock",
+      "category": "Home & Kitchen",
+      "tags": ["soy wax", "candles", "eco-friendly", "natural"],
+      "certifications": [
+        "Cruelty-Free",
+        "Non-Toxic"
+      ]
+    },
+    {
+      "id": "019",
+      "name": "Upcycled Fabric Backpack",
+      "description": "A stylish and durable backpack made from upcycled fabric, perfect for everyday use while promoting sustainability.",
+      "price": 39.99,
+      "currency": "USD",
+      "shipping_cost": 6.49,
+      "shipping_method": "Standard Shipping",
+      "availability": "In Stock",
+      "category": "Fashion",
+      "tags": ["upcycled", "backpack", "eco-friendly", "sustainable"],
+      "certifications": [
+        "Fair Trade",
+        "BPA-Free"
+      ]
+    },
+    {
+      "id": "020",
+      "name": "Sustainable Wooden Cutlery Set",
+      "description": "A complete set of reusable cutlery made from sustainably sourced wood, perfect for reducing plastic waste.",
+      "price": 15.49,
+      "currency": "USD",
+      "shipping_cost": 3.99,
+      "shipping_method": "Standard Shipping",
+      "availability": "In Stock",
+      "category": "Home & Kitchen",
+      "tags": ["wooden", "cutlery", "sustainable", "eco-friendly"],
+      "certifications": [
+        "FSC Certified",
+        "Biodegradable"
+      ]
     }
   ]
-  
