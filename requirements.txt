@@ -6,3 +6,6 @@ transformers
 langchain_community
 huggingface-hub==0.17.1
 llama-cpp-python==0.1.85
+langchain_huggingface
+flask_cors
+langchain_chroma
